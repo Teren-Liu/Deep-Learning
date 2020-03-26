@@ -46,10 +46,7 @@
 
 对于单位节点矩阵中第i个点，有
 
-
-```math
-M(i) = f(\sum_{x=1}^2\sum_{y=1}^2\sum_{z=1}^3A_{xyz} \times W_{xyz}^i + b^i)
-```
+<center><div align=center><img src ="https://github.com/Teren-Liu/Deep-Learning/blob/master/image/CNN-7.png"/></div></center>
 
 其中f()为激活函数，对于该单位节点矩阵用d个Filter对其进行计算，最终得到1x1xd的单位节点矩阵，该过程中，需要训练(2x2x3xd)个参数。下图为M(0)的计算示意图
 
@@ -79,11 +76,7 @@ Filter会在输入矩阵中根据设定的步长进行滑动，从输入矩阵�
 在不进行Padding的情况下，下列公式给出了结果矩阵的大小
 
 
-```math
-out_{length} = [(in_{length}-filter_{length} + 1 / stride_{length}]
-
-out_{width} = [(in_{width}-filter_{width} + 1 / stride_{width}]
-```
+<center><div align=center><img src ="https://github.com/Teren-Liu/Deep-Learning/blob/master/image/CNN-8.png"/></div></center>
 
 ## 池化层
 
