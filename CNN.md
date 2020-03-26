@@ -74,7 +74,7 @@ Filter会在输入矩阵中根据设定的步长进行滑动，从输入矩阵�
 - 为了实现上述目的，且不做多余的事情，padding出来的pixel的值都是0，不存在噪音问题
 
 
-<center><img width = '300' height ='200' src ="https://img-blog.csdn.net/20160404000501632"/></center>
+<center><img src ="https://img-blog.csdn.net/20160404000501632"/></center>
 
 ###### 输出矩阵
 
