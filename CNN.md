@@ -9,7 +9,7 @@
 
 卷积神经网络最早是在图像任务上提出的神经网络，后被应用在其他领域。该网络一般以三维数据作为输入，在提取三维数据局部特征上有显著效果。网络一般可以分为以下几层，其中卷积层和池化层可以多次出现。
 
-<center><img width = '300' height ='200' src ="https://img-blog.csdn.net/20160404000501632"/></center>
+<center><div align=center><img src ="https://github.com/Teren-Liu/Deep-Learning/blob/master/image/CNN-1.png"/></div></center>
 
 - 输入层<br>
 此层为神经网络的输入。在处理图像的CNN中，长和宽为一幅图像的大小，深度代表图像的色彩通道。
@@ -24,9 +24,7 @@
 
 ### 卷积层
 
-CNN2
-
-<center><img width = '300' height ='200' src ="https://img-blog.csdn.net/20160404000501632"/></center>
+<center><div align=center><img src ="https://github.com/Teren-Liu/Deep-Learning/blob/master/image/CNN-2.png"/></div></center>
 
 #### 简述
 
@@ -55,7 +53,7 @@ M(i) = f(\sum_{x=1}^2\sum_{y=1}^2\sum_{z=1}^3A_{xyz} \times W_{xyz}^i + b^i)
 
 其中f()为激活函数，对于该单位节点矩阵用d个Filter对其进行计算，最终得到1x1xd的单位节点矩阵，该过程中，需要训练(2x2x3xd)个参数。下图为M(0)的计算示意图
 
-<center><img width = '300' height ='200' src ="https://img-blog.csdn.net/20160404000501632"/></center>
+<center><div align=center><img src ="https://github.com/Teren-Liu/Deep-Learning/blob/master/image/CNN-3.png"/></div></center>
 
 ##### Filter的滑动
 
@@ -63,7 +61,7 @@ M(i) = f(\sum_{x=1}^2\sum_{y=1}^2\sum_{z=1}^3A_{xyz} \times W_{xyz}^i + b^i)
 
 Filter会在输入矩阵中根据设定的步长进行滑动，从输入矩阵的左上角自左到右自上到下移动到右下角，以得到输出特征矩阵。
 
-<center><img width = '300' height ='200' src ="https://img-blog.csdn.net/20160404000501632"/></center>
+<center><div align=center><img src ="https://github.com/Teren-Liu/Deep-Learning/blob/master/image/CNN-4.png"/></div></center>
 
 ###### Padding
 
@@ -74,7 +72,7 @@ Filter会在输入矩阵中根据设定的步长进行滑动，从输入矩阵�
 - 为了实现上述目的，且不做多余的事情，padding出来的pixel的值都是0，不存在噪音问题
 
 
-<center><img src ="https://img-blog.csdn.net/20160404000501632"/></center>
+<center><div align=center><img src ="https://github.com/Teren-Liu/Deep-Learning/blob/master/image/CNN-5.png"/></div></center>
 
 ###### 输出矩阵
 
@@ -91,7 +89,7 @@ out_{width} = [(in_{width}-filter_{width} + 1 / stride_{width}]
 
 池化层可以有效地缩小矩阵尺寸，减少最后全连接层的参数，防止过拟合。池化层主要有最大池化层(Max Pooling)与平均池化层(Average Pooling)两种。池化的方法与卷积的步骤类似，池化层中没有参数。
 
-![image](314A0EBA6EBE452D8D1CED9466A9A023)
+<center><div align=center><img src ="https://github.com/Teren-Liu/Deep-Learning/blob/master/image/CNN-6.png"/></div></center>
 
 
 
