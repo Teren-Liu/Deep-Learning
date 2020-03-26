@@ -63,7 +63,7 @@ RNN受限于短期记忆问题。如果一个序列足够长，那它们很难�
 
 <center><div align=center><img src ="https://github.com/Teren-Liu/Deep-Learning/blob/master/image/RNN-f3.png"/></div></center>
 
-![image](https://pic1.zhimg.com/v2-b9845aa5c463cb7aeb826a42845f2370_b.webp)
+<center><div align=center><img src ="https://pic1.zhimg.com/v2-b9845aa5c463cb7aeb826a42845f2370_b.webp"/></div></center>
 
 ##### 输入门
 
@@ -73,7 +73,7 @@ RNN受限于短期记忆问题。如果一个序列足够长，那它们很难�
 
 <center><div align=center><img src ="https://github.com/Teren-Liu/Deep-Learning/blob/master/image/RNN-f4.png"/></div></center>
 
-![image](https://pic2.zhimg.com/v2-1167da9a6386278cda018b3da01f006d_b.webp)
+<center><div align=center><img src ="https://pic2.zhimg.com/v2-1167da9a6386278cda018b3da01f006d_b.webp"/></div></center>
 
 ##### 单元状态
 
@@ -81,7 +81,7 @@ RNN受限于短期记忆问题。如果一个序列足够长，那它们很难�
 
 <center><div align=center><img src ="https://github.com/Teren-Liu/Deep-Learning/blob/master/image/RNN-f5.png"/></div></center>
 
-![image](https://pic4.zhimg.com/v2-726bf910e01dea258ccd6bc7ad96e5fb_b.webp)
+<center><div align=center><img src ="https://pic4.zhimg.com/v2-726bf910e01dea258ccd6bc7ad96e5fb_b.webp"/></div></center>
 
 ##### 输出门
 
@@ -93,7 +93,7 @@ RNN受限于短期记忆问题。如果一个序列足够长，那它们很难�
 
 <center><div align=center><img src ="https://github.com/Teren-Liu/Deep-Learning/blob/master/image/RNN-f6.png"/></div></center>
 
-![image](https://pic4.zhimg.com/v2-4bd9fc13ff4cc2f65473a35bd1112933_b.webp)
+<center><div align=center><img src ="https://pic4.zhimg.com/v2-4bd9fc13ff4cc2f65473a35bd1112933_b.webp"/></div></center>
 
 
 ## 参考文献
