@@ -99,3 +99,4 @@ RNN受限于短期记忆问题。如果一个序列足够长，那它们很难�
 ## 参考文献
 - 一文搞懂RNN https://zhuanlan.zhihu.com/p/30844905
 - 图解LSTM和GRU https://zhuanlan.zhihu.com/p/46981722
+- Tensorflow 实战 Google深度学习框架
