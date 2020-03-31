@@ -103,7 +103,7 @@ Encoder的输入向量与位置向量进行按位求和，输入到Self-Attentio
 
 ##### Decoder
 
-<center><div align=center><img src ="https://github.com/Teren-Liu/Deep-Learning/blob/master/image/Trans-10.png"/></div></center>
+<center><div align=center><img src ="https://github.com/Teren-Liu/Deep-Learning/blob/master/image/Trans-10--------------------------------------------.png"/></div></center>
 
 Decoder的输出特征是有时序的，即每一时刻仅输出一个单词的预测结果，但在训练的过程中，Decoder的输入仍然是正确的翻译结果，为了不让decoder预见到未来的信息，此处会用到一个Masked。举个例子
 
